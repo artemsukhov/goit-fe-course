@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;    
+}
+html { 
+  box-sizing: border-box;
+  vertical-align: top;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;        
+}
+
+.container {
+  width: 901px;
+  margin: 0 auto;
+}
+.page__header {
+  background-color: ffffff;
+  font-family: 'Playfair Display SC', serif;
+  padding-top: 77px;
+  padding-bottom: 100px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.site__navigation {
+  text-align: center;
+  font-size: 0;
+}
+
+.site__navigation li {
+  display: inline-block;
+  font-size: 14px;
+  list-style: none;
+  text-align: center;
+}
+.site__navigation li:not(:last-child){
+  margin-right: 73px;
+}
+
+.site__navigation a {
+  display: block;
+  color: #626262;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: center;
+}
+
+.site__navigation a:hover {
+  color: #6BC2F7;
+}
+
+.features {
+  margin: 0 auto;
+}
+.ul-features {
+  margin: 0 auto;
+  list-style: none;
+  font-size: 0;
+}
+.img__wrapper {
+  margin-bottom: 30px;
+}
+
+.theme__features {
+  margin-bottom: 34px;
+}
+.li-features {
+  vertical-align: top;
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+  margin-bottom: 135px;
+}
+.li-features:nth-last-child(-n+2) {
+  margin-bottom: 60px;
+}
+
+.li-features:nth-child(2n) {
+  margin-right: 0;
+}
+
+.figcapture__features {
+  font-family: 'Ubuntu', sans-serif;
+  color: #B4AD9E;
+  font-size: 14px;
+  line-height: 16.8px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.theme__features {
+  font-family: 'Playfair Display SC', serif;
+  color: #626262;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: none;
+  
+}
+.text__features {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 14px;
+}
+.button {
+  text-align: center;
+  padding-top: 57px;
+  margin-bottom: 1rem;
+}
+.load_button {
+  display: block;
+  margin: 0 auto 60px auto;
+  background: transparent;
+  border-width: 1px;
+  border-color: #626262;
+  border-style: solid;
+  width: 162px;
+  height: 58px;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: #626262;
+  line-height: 1.2;
+}
+
+.load_button:hover {
+  color: #6BC2F7;
+}
