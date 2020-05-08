@@ -1,0 +1,49 @@
+@media (min-width: 768px) {
+  .container {
+    max-width: 660px;
+    padding: 0;
+  }
+
+  .header {
+    padding-top: 37px;
+  }
+
+  .header__inner {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .header__logo {
+    margin-top: 0;
+  }
+  .after-head {
+    min-height: auto;
+    padding-bottom: 234px;
+  }
+
+  .after-head__title {
+    min-width: 478px;
+    font-size: 52px;
+  }
+
+  .after-head__sub-title {
+    padding-top: 40px;
+    min-width: 410px;
+    font-size: 24px;
+  }
+
+  .after-head__btn-wrap {
+    padding-top: 33px;
+  }
+  .holiday-partners__title {
+    min-width: 400px;
+  }
+  .holiday-partners__partners-list {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-height: 504px;
+  }
+
+}
