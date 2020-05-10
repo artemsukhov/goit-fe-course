@@ -1,0 +1,106 @@
+.features {
+  padding-bottom: 85px;
+
+  &__section-container::after {
+    content: "";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 42px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: rgb(243, 129, 129);
+    border: none;
+    width: 60px;
+    height: 3px;
+  }
+
+  &__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 68px;
+    font-size: 14px;
+    font-family: var(--ff-Montserrat);
+    max-width: 1200px;
+  }
+
+  &__list-item::before {
+    content: "";
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    background-position-y: 10px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
+
+  &__item-photografy:before {
+    background-image: url(../images/img/icon-clock.svg);
+  }
+
+  &__item-web_design:before {
+    background-image: url(../images/img/line-graph-icon.svg);
+  }
+
+  &__item-creativity:before {
+    background-image: url(../images/img/computer-icon.svg);
+  }
+
+  &__item-seo:before {
+    background-image: url(../images/img/book-icon.svg);
+  }
+
+  &__item-csshtml:before {
+    background-image: url(../images/img/home-icon.svg);
+  }
+
+  &__item-digital:before {
+    background-image: url(../images/img/digital-icon.svg);
+  }
+
+  &__list-item {
+    -ms-flex-preferred-size: 370px;
+    flex-basis: 370px;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-bottom: 100px;
+    padding-left: 60px;
+    background-color: #fff;
+  }
+
+  &__list-item:nth-of-type(n + 4) {
+    margin-bottom: 0;
+  }
+
+  &__title {
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  &__description {
+    font-size: 15px;
+    font-family: var(--ff-Roboto);
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: left;
+  }
+
+}
