@@ -1,0 +1,43 @@
+:root {
+  --white-color: #fff;
+  --blue-color: #95e1d3;
+  --ff-Montserrat: "Montserrat", sans-serif;
+  --ff-Myriad: "Myriad Pro";
+  --ff-Roboto: "Roboto", sans-serif;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@import './components/header.scss';
+@import './components/after-header.scss';
+@import './components/section-title.scss';
+@import './components/features.scss';
+@import './components/team.scss';
+@import './components/footer.scss';
